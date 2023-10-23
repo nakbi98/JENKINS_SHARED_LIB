@@ -1,5 +1,5 @@
 def call(Map stageParams){
-    chekout {[
+    checkout {[
 
         $class: 'GitSCM',
         branches: [[name: stageParams.branch]],
